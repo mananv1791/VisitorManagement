@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load admin_urls %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer</title>
+</head>
+<body>
+
+<h1>Welcome in customer section</h1>
+
+<form method="GET">
+    <div>
+
+        <label>Phone Number</label>
+        <input id="PhoneNumber" name="PhoneNumber" type="number" placeholder="PhoneNumber">
+        <input type="button" value="Sent">
+        {% urls "message" PhoneNumber %}
+    </div>
+
+</form>
+
+</body>
+</html>
