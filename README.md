@@ -11,8 +11,12 @@ cd repo
 
 You clone the repository your project is in
 
+
 git clone https://github.com/mananv1791/VisitorManagement.git
 
+Then you can run the project(Django based)
+
+python manage.py runserver
 
 -------------------------------------------------------------
 
